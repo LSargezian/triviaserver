@@ -1,4 +1,4 @@
-# 🎯 Trivia Server
+# 🎯 Trivia Server ( JavaScript )
 
 A Node.js server using **Express**, **GraphQL**, and **MongoDB** that serves trivia categories and questions using data fetched from the [Open Trivia Database](https://opentdb.com/). 
 ---
