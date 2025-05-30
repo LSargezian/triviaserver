@@ -6,6 +6,7 @@ const resolvers = {
         categories: async () => {
             return await Category.find().sort('name').exec();
         },
+
         quiz: async (_, { category, difficulty, amount }) => {
             const filter = {};
             if (category) filter.category = category;
