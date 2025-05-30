@@ -45,3 +45,6 @@ A Node.js server using **Express**, **GraphQL**, and **MongoDB** that serves tri
 
 5. Start the development server
     npm run dev
+
+   ![Screenshot 2025-05-30 at 3 31 31 PM](https://github.com/user-attachments/assets/6829343d-6f05-4fb9-adf3-190356e279c5)
+
