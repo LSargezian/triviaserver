@@ -6,7 +6,6 @@ const Question = require('../models/Question');
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-// Wrap axios.get with retry-on-429
 async function fetchWithRetry(url, retries = 5, backoff = 2000) {
     for (let i = 0; i < retries; i++) {
         try {
