@@ -32,9 +32,9 @@ A Node.js server using **Express**, **GraphQL**, and **MongoDB** that serves tri
 
 
 2. Create an .env file in the root directory:
-  MONGODB_URI=your-mongodb-uri
-  PORT=4000
-  ENABLE_GRAPHIQL=true
+  - MONGODB_URI=your-mongodb-uri
+  - PORT=4000
+  - ENABLE_GRAPHIQL=true
 
 3. Install dependencies
    - npm install
