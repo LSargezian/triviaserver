@@ -38,7 +38,7 @@ A Node.js server using **Express**, **GraphQL**, and **MongoDB** that serves tri
   ENABLE_GRAPHIQL=true
 
 3. Install dependencies
-   npm install
+   - npm install
 
 4. Seed the database with trivia data
     npm run seed
