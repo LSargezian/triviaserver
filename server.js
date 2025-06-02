@@ -3,8 +3,8 @@ const cors = require('cors');
 const { ApolloServer } = require('apollo-server-express');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
-const typeDefs = require('./graphql/schema');
-const resolvers = require('./graphql/resolvers/resolvers');
+const typeDefs = require('./graphql/typedefs');
+const resolvers = require('./graphql/resolvers');
 const errorHandler = require('./middleware/errorHandler');
 
 dotenv.config();
